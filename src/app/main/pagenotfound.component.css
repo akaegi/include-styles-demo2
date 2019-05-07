@@ -1,0 +1,6 @@
+.error {
+  display: inline;
+  vertical-align: middle;
+  padding: var(--lumo-space-wide-xs);
+  color: var(--lumo-error-text-color);
+}

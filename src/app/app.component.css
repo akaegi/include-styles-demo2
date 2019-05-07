@@ -1,0 +1,11 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+  min-height: 0;  /* shrink content below its minimum size (required to get scrollbars in children) */
+  padding: var(--lumo-space-l);
+}
